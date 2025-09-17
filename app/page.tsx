@@ -1,102 +1,86 @@
 import Image from "next/image";
 
 export default function Home() {
-  return (
-    <div className="font-sans grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20">
-      <main className="flex flex-col gap-[32px] row-start-2 items-center sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={180}
-          height={38}
-          priority
-        />
-        <ol className="font-mono list-inside list-decimal text-sm/6 text-center sm:text-left">
-          <li className="mb-2 tracking-[-.01em]">
-            Get started by editing{" "}
-            <code className="bg-black/[.05] dark:bg-white/[.06] font-mono font-semibold px-1 py-0.5 rounded">
-              app/page.tsx
-            </code>
-            .
-          </li>
-          <li className="tracking-[-.01em]">
-            Save and see your changes instantly.
-          </li>
-        </ol>
+  const currentYear = new Date().getFullYear();
 
-        <div className="flex gap-4 items-center flex-col sm:flex-row">
-          <a
-            className="rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background gap-2 hover:bg-[#383838] dark:hover:bg-[#ccc] font-medium text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 sm:w-auto"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={20}
-              height={20}
-            />
-            Deploy now
-          </a>
-          <a
-            className="rounded-full border border-solid border-black/[.08] dark:border-white/[.145] transition-colors flex items-center justify-center hover:bg-[#f2f2f2] dark:hover:bg-[#1a1a1a] hover:border-transparent font-medium text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 w-full sm:w-auto md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Read our docs
-          </a>
+  return (
+    <div className="max-w-3xl mx-auto p-6 font-mono text-sm bg-[#f6f6ef] min-h-screen">
+      <header className="mb-6 border-b-2 border-[#ff6600] pb-3">
+        <div className="flex items-center gap-3 mb-2">
+          <Image
+            src="/logo.svg"
+            alt="AISOLO Logo"
+            width={24}
+            height={24}
+            className="flex-shrink-0"
+          />
+          <h1 className="text-xl font-bold text-black">AISOLO TECHNOLOGIES PRIVATE LIMITED</h1>
         </div>
+        <p className="text-gray-600 mt-1">Mumbai-based AI company specializing in video privacy solutions</p>
+      </header>
+
+      <main>
+        <section className="mb-6">
+          <h2 className="text-base font-bold mb-2 text-[#ff6600]">Vision</h2>
+          <p className="text-gray-800 text-xs">To build privacy and AI education in India.</p>
+        </section>
+
+        <section className="mb-6">
+          <h2 className="text-base font-bold mb-2 text-[#ff6600]">Services</h2>
+          <p className="text-gray-800 text-xs">AI Agent Building • GenAI Training • MCP Training • RAG Training • Software MVP Building</p>
+        </section>
+
+        <section className="mb-6">
+          <h2 className="text-base font-bold mb-2 text-[#ff6600]">Products</h2>
+          <div className="space-y-1 text-gray-800 text-xs">
+            <div>
+              <a href="https://bgblur.com" className="text-[#ff6600] hover:underline" target="_blank" rel="noopener noreferrer">bgblur.com</a>
+              <span className="text-gray-600"> - Privacy-first model training platform</span>
+            </div>
+            <div>
+              <a href="https://bgremover.com" className="text-[#ff6600] hover:underline" target="_blank" rel="noopener noreferrer">bgremover.com</a>
+              <span className="text-gray-600"> - AI background removal tool</span>
+            </div>
+            <div><span className="text-gray-600">Olly.social - AI social media engagement Chrome extension (25K+ users)</span></div>
+            <div><span className="text-gray-600">Snapy.ai - AI video editing platform for short-form content (35K+ users)</span></div>
+          </div>
+        </section>
+
+        <section className="mb-6">
+          <h2 className="text-base font-bold mb-2 text-[#ff6600]">Founder</h2>
+          <div className="text-gray-800 text-xs">
+            <p><span className="font-semibold">Yash Thakker</span> - Founder & CEO</p>
+            <p className="text-gray-600">AI Instructor & Product Leader, 12+ years experience, taught 120K+ students, MBA SIMSREE</p>
+          </div>
+        </section>
+
+        <section className="mb-6">
+          <h2 className="text-base font-bold mb-2 text-[#ff6600]">Team</h2>
+          <div className="text-gray-800 text-xs">
+            <p>Geeta (Co-Founder) • Pratham (Marketing) • Shri (PM) • Paresh Bhamare (Sr Dev) • Rahul Santra (Sr Dev) • Tushar Mestry (Video) • Dhruvi Jain (Marketing)</p>
+          </div>
+        </section>
+
+        <section className="mb-6">
+          <h2 className="text-base font-bold mb-2 text-[#ff6600]">Contact</h2>
+          <div className="text-xs">
+            <a href="mailto:yash@explainx.ai" className="text-[#ff6600] hover:underline">yash@explainx.ai</a>
+          </div>
+        </section>
+
+        <section className="mb-6">
+          <h2 className="text-base font-bold mb-2 text-[#ff6600]">Links</h2>
+          <div className="text-xs space-y-1">
+            <div><a href="https://instagram.com/aisolo.tech" className="text-[#ff6600] hover:underline" target="_blank" rel="noopener noreferrer">Instagram</a></div>
+            <div><a href="https://linkedin.com/company/aisolo" className="text-[#ff6600] hover:underline" target="_blank" rel="noopener noreferrer">LinkedIn</a></div>
+            <div><a href="https://youtube.com/@goyashy" className="text-[#ff6600] hover:underline" target="_blank" rel="noopener noreferrer">YouTube</a></div>
+            <div><a href="https://github.com/whyashthakker/aisolo.tech" className="text-[#ff6600] hover:underline" target="_blank" rel="noopener noreferrer">GitHub</a></div>
+          </div>
+        </section>
       </main>
-      <footer className="row-start-3 flex gap-[24px] flex-wrap items-center justify-center">
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/file.svg"
-            alt="File icon"
-            width={16}
-            height={16}
-          />
-          Learn
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/window.svg"
-            alt="Window icon"
-            width={16}
-            height={16}
-          />
-          Examples
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/globe.svg"
-            alt="Globe icon"
-            width={16}
-            height={16}
-          />
-          Go to nextjs.org →
-        </a>
+
+      <footer className="mt-8 pt-3 border-t border-gray-300 text-center text-gray-500 text-xs">
+        <p>© {currentYear} AISOLO TECHNOLOGIES PRIVATE LIMITED. Mumbai, India.</p>
       </footer>
     </div>
   );
