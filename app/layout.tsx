@@ -13,15 +13,15 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "AISOLO Technologies - AI-Powered Video Privacy Solutions | Mumbai, India",
-  description: "Leading AI company in Mumbai specializing in video privacy solutions, AI agent building, GenAI training, RAG training, and software MVP development. Founded by Yash Thakker with 12+ years experience.",
-  keywords: "AI company Mumbai, video privacy, AI agents, GenAI training, RAG training, MCP training, software MVP, machine learning India, AI consultant Mumbai, AISOLO Technologies",
+  title: "AISOLO Technologies - Privacy-First AI Solutions & Education | Mumbai, India",
+  description: "Mumbai-based AI company building privacy-first solutions and democratizing AI education. Offering AI Maker Bootcamp, custom AI development, and products like bgblur.com and olly.social. Founded by Yash Thakker.",
+  keywords: "AI company Mumbai, privacy-first AI, AI education India, AI Maker Bootcamp, AI training Mumbai, bgblur.com, olly.social, GenAI training, RAG training, MCP training, AI consultant Mumbai, AISOLO Technologies",
   authors: [{ name: "Yash Thakker" }],
   creator: "AISOLO Technologies",
   publisher: "AISOLO Technologies",
   openGraph: {
-    title: "AISOLO Technologies - AI-Powered Video Privacy Solutions",
-    description: "Leading AI company in Mumbai specializing in video privacy solutions and AI training services.",
+    title: "AISOLO Technologies - Privacy-First AI Solutions & Education",
+    description: "Mumbai-based AI company building privacy-first solutions and democratizing AI education through products and training programs.",
     url: "https://aisolo.tech",
     siteName: "AISOLO Technologies",
     locale: "en_IN",
@@ -29,8 +29,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "AISOLO Technologies - AI-Powered Video Privacy Solutions",
-    description: "Leading AI company in Mumbai specializing in video privacy solutions and AI training services.",
+    title: "AISOLO Technologies - Privacy-First AI Solutions & Education",
+    description: "Mumbai-based AI company building privacy-first solutions and democratizing AI education through products and training programs.",
   },
   robots: {
     index: true,
