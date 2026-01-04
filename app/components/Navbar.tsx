@@ -25,10 +25,22 @@ export default function Navbar() {
               Products
             </Link>
             <Link 
+              href="/team" 
+              className="text-xs text-gray-700 hover:text-[#ff6600] transition-colors"
+            >
+              Team
+            </Link>
+            <Link 
               href="/blog" 
               className="text-xs text-gray-700 hover:text-[#ff6600] transition-colors"
             >
               Blog
+            </Link>
+            <Link 
+              href="/guide" 
+              className="text-xs text-gray-700 hover:text-[#ff6600] transition-colors"
+            >
+              Guide
             </Link>
             <a 
               href="mailto:yash@explainx.ai" 
