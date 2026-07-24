@@ -38,15 +38,23 @@ export default function Home() {
           <div className="space-y-1 text-gray-800 text-xs">
             <div>
               <a href="https://bgblur.com" className="text-[#ff6600] hover:underline" target="_blank" rel="noopener noreferrer">bgblur.com</a>
-              <span className="text-gray-800"> - Privacy-first model training platform</span>
+              <span className="text-gray-800"> - AI video privacy & background blur tool</span>
             </div>
             <div>
-              <a href="https://bgremover.com" className="text-[#ff6600] hover:underline" target="_blank" rel="noopener noreferrer">bgremover.com</a>
-              <span className="text-gray-800"> - AI background removal tool</span>
+              <a href="https://bgremover.video" className="text-[#ff6600] hover:underline" target="_blank" rel="noopener noreferrer">bgremover.video</a>
+              <span className="text-gray-800"> - AI video background removal tool</span>
             </div>
             <div>
               <a href="https://olly.social" className="text-[#ff6600] hover:underline" target="_blank" rel="noopener noreferrer">olly.social</a>
               <span className="text-gray-800"> - AI social media engagement Chrome extension (25K+ users)</span>
+            </div>
+            <div>
+              <a href="https://explainx.ai" className="text-[#ff6600] hover:underline" target="_blank" rel="noopener noreferrer">explainx.ai</a>
+              <span className="text-gray-800"> - Enterprise GenAI & explainable AI platform</span>
+            </div>
+            <div>
+              <a href="https://bunpav.com" className="text-[#ff6600] hover:underline" target="_blank" rel="noopener noreferrer">bunpav.com</a>
+              <span className="text-gray-800"> - Fast, minimal AI tools & micro-applications</span>
             </div>
             <div className="mt-2 pt-2 border-t border-gray-200">
               <a href="/products" className="text-[#ff6600] hover:underline">View all products →</a>

@@ -3,12 +3,12 @@ import type { Metadata } from "next";
 import Navbar from "../components/Navbar";
 
 export const metadata: Metadata = {
-  title: "AISOLO Products - Privacy-First AI Solutions | bgblur.com, olly.social",
-  description: "Explore AISOLO's privacy-first AI products: bgblur.com for model training, bgremover.com for background removal, and olly.social Chrome extension with 25K+ users.",
-  keywords: "bgblur.com, olly.social, bgremover.com, privacy-first AI, AI products, background removal, social media AI, Chrome extension",
+  title: "AISOLO Products - Privacy-First AI Solutions | bgblur.com, bgremover.video, explainx.ai, bunpav.com, olly.social",
+  description: "Explore AISOLO's privacy-first AI products: bgblur.com for video privacy & background blur, bgremover.video for video background removal, explainx.ai for GenAI & explainable AI, bunpav.com for fast micro-apps, and olly.social Chrome extension with 25K+ users.",
+  keywords: "bgblur.com, bgremover.video, explainx.ai, bunpav.com, olly.social, privacy-first AI, AI products, background removal, social media AI, Chrome extension, explainable AI",
   openGraph: {
     title: "AISOLO Products - Privacy-First AI Solutions",
-    description: "Explore AISOLO's privacy-first AI products including bgblur.com, olly.social, and bgremover.com.",
+    description: "Explore AISOLO's privacy-first AI products including bgblur.com, bgremover.video, explainx.ai, bunpav.com, and olly.social.",
     url: "https://aisolo.tech/products",
   },
 };
@@ -19,26 +19,47 @@ export default function Products() {
   const products = [
     {
       name: "bgblur.com",
+      slug: "bgblur",
       url: "https://bgblur.com",
-      description: "Privacy-first model training platform",
+      description: "AI video privacy & background blur tool",
       category: "Privacy Tech",
-      features: ["Advanced background blurring", "Privacy-preserving ML training", "Enterprise-grade security", "API integration"],
+      features: ["Smart AI background blurring", "Face & license plate blur", "Live streaming support", "Privacy-preserving processing"],
       status: "Live"
     },
     {
-      name: "bgremover.com", 
-      url: "https://bgremover.com",
-      description: "AI background removal tool",
-      category: "AI Tools",
-      features: ["One-click background removal", "High-quality AI processing", "Bulk processing", "Multiple formats support"],
+      name: "bgremover.video",
+      slug: "bgremover",
+      url: "https://bgremover.video",
+      description: "AI video background removal tool",
+      category: "AI Video",
+      features: ["One-click video background removal", "High-quality AI cutouts", "Bulk processing", "Multiple format support"],
       status: "Live"
     },
     {
       name: "olly.social",
+      slug: "olly-social",
       url: "https://olly.social", 
       description: "AI social media engagement Chrome extension",
       category: "Browser Extension",
       features: ["Smart comment suggestions", "AI-powered responses", "25K+ active users", "Multi-platform support"],
+      status: "Live"
+    },
+    {
+      name: "explainx.ai",
+      slug: "explainx",
+      url: "https://explainx.ai",
+      description: "Enterprise GenAI & explainable AI platform",
+      category: "AI Enterprise",
+      features: ["Explainable AI frameworks", "GenAI model deployment", "Enterprise AI training", "Auditability & transparency"],
+      status: "Live"
+    },
+    {
+      name: "bunpav.com",
+      slug: "bunpav",
+      url: "https://bunpav.com",
+      description: "Fast, minimal AI tools & micro-applications",
+      category: "AI Utilities",
+      features: ["Lightning-fast micro-apps", "Minimalistic user experience", "Utility AI tools", "No-friction interface"],
       status: "Live"
     }
   ];
@@ -102,7 +123,7 @@ export default function Products() {
                 <div className="flex items-center justify-between pt-2 border-t border-gray-100">
                   <div className="space-x-2">
                     <Link 
-                      href={`/products/${product.name === 'olly.social' ? 'olly-social' : product.name.replace('.com', '')}`}
+                      href={`/products/${product.slug}`}
                       className="inline-block border border-[#ff6600] text-[#ff6600] px-3 py-1 rounded text-xs hover:bg-orange-50 transition-colors"
                     >
                       Learn More

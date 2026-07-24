@@ -14,8 +14,8 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "AISOLO Technologies - Privacy-First AI Solutions & Education | Mumbai, India",
-  description: "Mumbai-based AI company building privacy-first solutions and democratizing AI education. Offering AI Maker Bootcamp, custom AI development, and products like bgblur.com and olly.social. Founded by Yash Thakker.",
-  keywords: "AI company Mumbai, privacy-first AI, AI education India, AI Maker Bootcamp, AI training Mumbai, bgblur.com, olly.social, GenAI training, RAG training, MCP training, AI consultant Mumbai, AISOLO Technologies",
+  description: "Mumbai-based AI company building privacy-first solutions and democratizing AI education. Offering AI Maker Bootcamp, custom AI development, and products like bgblur.com, bgremover.video, explainx.ai, bunpav.com, and olly.social. Founded by Yash Thakker.",
+  keywords: "AI company Mumbai, privacy-first AI, AI education India, AI Maker Bootcamp, AI training Mumbai, bgblur.com, bgremover.video, explainx.ai, bunpav.com, olly.social, GenAI training, RAG training, MCP training, AI consultant Mumbai, AISOLO Technologies",
   authors: [{ name: "Yash Thakker" }],
   creator: "AISOLO Technologies",
   publisher: "AISOLO Technologies",

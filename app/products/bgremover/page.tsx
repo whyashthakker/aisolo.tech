@@ -3,12 +3,12 @@ import type { Metadata } from "next";
 import Navbar from "../../components/Navbar";
 
 export const metadata: Metadata = {
-  title: "bgremover.com - AI Background Removal Tool | AISOLO",
-  description: "Professional AI background removal tool and unscreen.com alternative for e-commerce, product photography, and content creation. Remove backgrounds in seconds with smooth edges and bulk processing capabilities.",
-  keywords: "bgremover.com, AI background removal, remove background, unscreen.com alternative, product photography, e-commerce images, bulk background removal, transparent background",
+  title: "bgremover.video - AI Video & Image Background Removal Tool | AISOLO",
+  description: "Professional AI video and image background removal tool and unscreen.com alternative for content creation, video production, e-commerce, and product photography. Remove backgrounds in seconds with smooth edges.",
+  keywords: "bgremover.video, AI video background removal, remove video background, unscreen.com alternative, product photography, e-commerce images, bulk background removal, transparent background",
   openGraph: {
-    title: "bgremover.com - AI Background Removal Tool",
-    description: "Professional AI background removal tool for e-commerce, product photography, and content creation.",
+    title: "bgremover.video - AI Video Background Removal Tool",
+    description: "Professional AI video and image background removal tool for e-commerce, video production, and content creation.",
     url: "https://aisolo.tech/products/bgremover",
   },
 };
@@ -24,8 +24,8 @@ export default function BgRemoverProduct() {
           <div className="flex items-center gap-3 mb-2">
             <Link href="/products" className="text-[#ff6600] hover:underline text-xs">← Back to Products</Link>
           </div>
-          <h1 className="text-xl font-bold text-black mb-2">bgremover.com</h1>
-          <p className="text-gray-800 text-xs">Professional AI background removal for modern workflows</p>
+          <h1 className="text-xl font-bold text-black mb-2">bgremover.video</h1>
+          <p className="text-gray-800 text-xs">Professional AI video & image background removal for modern workflows</p>
         </header>
 
       <main>
@@ -33,19 +33,19 @@ export default function BgRemoverProduct() {
           <div className="flex items-center justify-between mb-4">
             <h2 className="text-base font-bold text-[#ff6600]">Product Overview</h2>
             <a 
-              href="https://bgremover.com" 
+              href="https://bgremover.video" 
               className="inline-block bg-[#ff6600] text-white px-3 py-1 rounded text-xs hover:bg-orange-700 transition-colors"
               target="_blank" 
               rel="noopener noreferrer"
             >
-              Visit bgremover.com
+              Visit bgremover.video
             </a>
           </div>
           <p className="text-gray-800 text-xs mb-4 leading-relaxed">
-            bgremover.com is AISOLO's professional AI background removal tool designed for e-commerce, 
+            bgremover.video is AISOLO's professional AI background removal tool designed for video creators, e-commerce, 
             product photography, and content creation. As a powerful alternative to unscreen.com, it's powered 
-            by advanced AI trained on millions of images and delivers clean, precise cutouts with smooth edges 
-            in seconds, perfect for businesses that need high-quality background removal at scale.
+            by advanced AI trained on millions of frames and images to deliver clean, precise cutouts with smooth edges 
+            in seconds, perfect for creators and businesses that need high-quality background removal at scale.
           </p>
         </section>
 
@@ -55,19 +55,19 @@ export default function BgRemoverProduct() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-4">
             <div className="bg-white p-3 rounded border border-gray-200">
               <h3 className="font-bold text-xs mb-2 text-gray-800">⚡ Lightning Fast</h3>
-              <p className="text-xs text-gray-800">Remove backgrounds in 3 seconds or less with automatic subject detection</p>
+              <p className="text-xs text-gray-800">Remove video and image backgrounds in seconds with automatic subject detection</p>
             </div>
             <div className="bg-white p-3 rounded border border-gray-200">
               <h3 className="font-bold text-xs mb-2 text-gray-800">✂️ Precise Edges</h3>
-              <p className="text-xs text-gray-800">Neat, clear, and smooth cutout edges that handle complex details like hair and fur</p>
+              <p className="text-xs text-gray-800">Neat, clear, and smooth cutout edges that handle complex details like hair and fine motion</p>
             </div>
             <div className="bg-white p-3 rounded border border-gray-200">
-              <h3 className="font-bold text-xs mb-2 text-gray-800">📦 Bulk Processing</h3>
-              <p className="text-xs text-gray-800">Process over 1,000 images in a single upload for e-commerce workflows</p>
+              <h3 className="font-bold text-xs mb-2 text-gray-800">📦 Bulk & Video Processing</h3>
+              <p className="text-xs text-gray-800">Process video streams or thousands of frames in a single upload for seamless production</p>
             </div>
             <div className="bg-white p-3 rounded border border-gray-200">
               <h3 className="font-bold text-xs mb-2 text-gray-800">🎨 Smart Backgrounds</h3>
-              <p className="text-xs text-gray-800">Replace with white, transparent, custom colors, or photo backgrounds instantly</p>
+              <p className="text-xs text-gray-800">Replace with transparent, custom colors, video loops, or custom backdrop images</p>
             </div>
           </div>
         </section>
@@ -77,19 +77,19 @@ export default function BgRemoverProduct() {
           <div className="space-y-3">
             <div className="bg-gray-50 p-3 rounded border-l-2 border-[#ff6600]">
               <h3 className="font-bold text-gray-500 text-xs mb-1">AI Subject Detection</h3>
-              <p className="text-xs text-gray-800">Automatically detects and isolates main subjects in photos with high accuracy</p>
+              <p className="text-xs text-gray-800">Automatically detects and isolates main subjects in videos and photos with high accuracy</p>
             </div>
             <div className="bg-gray-50 p-3 rounded border-l-2 border-[#ff6600]">
               <h3 className="font-bold text-gray-500 text-xs mb-1">Complex Detail Handling</h3>
-              <p className="text-xs text-gray-800">Expertly processes challenging elements like hair, fur, and fine details</p>
+              <p className="text-xs text-gray-800">Expertly processes challenging elements like hair, translucent objects, and fast movement</p>
             </div>
             <div className="bg-gray-50 p-3 rounded border-l-2 border-[#ff6600]">
-              <h3 className="font-bold text-gray-500 text-xs mb-1">E-commerce Optimized</h3>
-              <p className="text-xs text-gray-800">Specifically designed for product photography and online retail image requirements</p>
+              <h3 className="font-bold text-gray-500 text-xs mb-1">E-commerce & Creator Optimized</h3>
+              <p className="text-xs text-gray-800">Specifically designed for social media videos, product reels, and online store imagery</p>
             </div>
             <div className="bg-gray-50 p-3 rounded border-l-2 border-[#ff6600]">
               <h3 className="font-bold text-gray-500 text-xs mb-1">Privacy Protected</h3>
-              <p className="text-xs text-gray-800">All processed images are automatically deleted within 24 hours for security</p>
+              <p className="text-xs text-gray-800">All processed files are automatically deleted within 24 hours for ultimate security</p>
             </div>
           </div>
         </section>
@@ -111,7 +111,7 @@ export default function BgRemoverProduct() {
             </div>
             <div className="bg-white p-3 rounded border border-gray-200 text-center">
               <div className="w-8 h-8 bg-gradient-to-r from-green-400 to-blue-500 rounded mx-auto mb-2"></div>
-              <div className="text-xs text-gray-800">Photo Backgrounds</div>
+              <div className="text-xs text-gray-800">Photo & Video Backdrops</div>
             </div>
           </div>
         </section>
@@ -121,27 +121,27 @@ export default function BgRemoverProduct() {
           <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
             <div className="bg-white p-3 rounded border border-gray-200">
               <h3 className="font-bold text-xs mb-2 text-gray-800">🛒 E-commerce</h3>
-              <p className="text-xs text-gray-800">Product photos for online stores with consistent backgrounds</p>
+              <p className="text-xs text-gray-800">Product photos and video reels for online stores</p>
             </div>
             <div className="bg-white p-3 rounded border border-gray-200">
-              <h3 className="font-bold text-xs mb-2 text-gray-800">📸 Photography</h3>
-              <p className="text-xs text-gray-800">Professional photo editing and subject isolation</p>
+              <h3 className="font-bold text-xs mb-2 text-gray-800">📸 Video Production</h3>
+              <p className="text-xs text-gray-800">Keyless green screen removal for video creators</p>
             </div>
             <div className="bg-white p-3 rounded border border-gray-200">
               <h3 className="font-bold text-xs mb-2 text-gray-800">📱 Social Media</h3>
-              <p className="text-xs text-gray-800">Clean content for Instagram, Facebook, and other platforms</p>
+              <p className="text-xs text-gray-800">Clean content for YouTube Shorts, Reels, and TikTok</p>
             </div>
             <div className="bg-white p-3 rounded border border-gray-200">
               <h3 className="font-bold text-xs mb-2 text-gray-800">🎨 Design</h3>
-              <p className="text-xs text-gray-800">Marketing materials and graphic design projects</p>
+              <p className="text-xs text-gray-800">Marketing materials and graphic design assets</p>
             </div>
             <div className="bg-white p-3 rounded border border-gray-200">
               <h3 className="font-bold text-xs mb-2 text-gray-800">📊 Presentations</h3>
-              <p className="text-xs text-gray-800">Professional slides and business documents</p>
+              <p className="text-xs text-gray-800">Professional slides and business media</p>
             </div>
             <div className="bg-white p-3 rounded border border-gray-200">
               <h3 className="font-bold text-xs mb-2 text-gray-800">🖥️ Web Design</h3>
-              <p className="text-xs text-gray-800">Website images and user interface elements</p>
+              <p className="text-xs text-gray-800">Dynamic website animations and video overlays</p>
             </div>
           </div>
         </section>
@@ -151,11 +151,11 @@ export default function BgRemoverProduct() {
           <div className="grid grid-cols-2 md:grid-cols-3 gap-2 text-xs">
             <div className="flex items-center text-gray-800">
               <span className="text-[#ff6600] mr-1">•</span>
-              E-commerce Businesses
+              Video Editors & Producers
             </div>
             <div className="flex items-center text-gray-800">
               <span className="text-[#ff6600] mr-1">•</span>
-              Product Photographers
+              E-commerce Businesses
             </div>
             <div className="flex items-center text-gray-800">
               <span className="text-[#ff6600] mr-1">•</span>
@@ -179,12 +179,12 @@ export default function BgRemoverProduct() {
         <section className="mb-6 bg-orange-50 p-4 rounded border border-orange-200">
           <h2 className="text-base font-bold mb-2 text-[#ff6600]">Enterprise-Grade Performance</h2>
           <p className="text-xs text-gray-800 mb-3">
-            Built by AISOLO with enterprise-grade reliability, bgremover.com is trusted by businesses worldwide 
+            Built by AISOLO with enterprise-grade reliability, bgremover.video is trusted by businesses worldwide 
             for high-volume background removal needs. Our AI technology ensures consistent, professional results 
-            whether you're processing a single image or thousands.
+            whether you're processing a single video or thousands of frames.
           </p>
           <a 
-            href="https://bgremover.com" 
+            href="https://bgremover.video" 
             className="inline-block bg-[#ff6600] text-white px-3 py-1 rounded text-xs hover:bg-orange-700 transition-colors"
             target="_blank" 
             rel="noopener noreferrer"

@@ -254,9 +254,11 @@ export default function Guide() {
             <div className="mt-8 bg-[#f8f9fa] p-5 border-l-4 border-[#3498db] text-sm">
               <h3 className="text-lg font-bold text-[#ff6600] mb-3">What We're Building (The Good Stuff)</h3>
               <div className="space-y-2 text-gray-700">
-                <p><strong className="text-[#2c3e50]">infloq.com</strong> - Influencer CMS for enterprises doing research (because someone needs to organize this chaos)</p>
+                <p><strong className="text-[#2c3e50]">bgblur.com</strong> - AI video privacy & background blur tool</p>
+                <p><strong className="text-[#2c3e50]">bgremover.video</strong> - AI video background removal tool</p>
                 <p><strong className="text-[#2c3e50]">olly.social</strong> - Chrome extension beloved by 25K+ users who want AI to handle their social replies</p>
-                <p><strong className="text-[#2c3e50]">bgblur.com</strong> - Privacy-first model training (keeping your data yours, imagine that)</p>
+                <p><strong className="text-[#2c3e50]">explainx.ai</strong> - Enterprise GenAI & explainable AI platform</p>
+                <p><strong className="text-[#2c3e50]">bunpav.com</strong> - Fast, minimal AI tools & micro-applications</p>
                 <p><strong className="text-[#2c3e50]">Plus our edtech empire</strong> - Teaching the world that AI won't steal their lunch money, just make better sandwiches</p>
               </div>
             </div>
